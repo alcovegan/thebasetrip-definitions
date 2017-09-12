@@ -1,16 +1,16 @@
 {
   "name": "thebasetrip-definitions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get human-readable attributes of thebasetrip.com API on English and Russian",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/alcovegan/thebasetrip-definitions.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcovegan/thebasetrip-definitions.git"
   },
   "bugs": {
-    "url" : "https://github.com/alcovegan/thebasetrip-definitions/issues",
-    "email" : "alcovegan@gmail.com"
+    "url": "https://github.com/alcovegan/thebasetrip-definitions/issues",
+    "email": "alcovegan@gmail.com"
   },
   "scripts": {
     "test": "jest --coverage",
