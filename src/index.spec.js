@@ -63,15 +63,15 @@ describe('getLocationSubregion', () => {
   it(`should return "Австралия и Новая Зеландия" for location subregion "AUSTRALIA_AND_NEW_ZEALAND" on Russian`, () => {
     expect(getLocationSubregion("AUSTRALIA_AND_NEW_ZEALAND", "ru")).toBe("Австралия и Новая Зеландия");
   });
-  it(`should return "Юго-Восточная Азия" for location subregion "SOUTH_EASTERN_ASIA" on Russian`, () => {
-    expect(getLocationSubregion("SOUTH_EASTERN_ASIA", "ru")).toBe("Юго-Восточная Азия");
+  it(`should return "Юго-Восточная Азия" for location subregion "SOUTH-EASTERN_ASIA" on Russian`, () => {
+    expect(getLocationSubregion("SOUTH-EASTERN_ASIA", "ru")).toBe("Юго-Восточная Азия");
   });
 
   it(`should return "Australia and New Zealand" for location subregion "AUSTRALIA_AND_NEW_ZEALAND" on English`, () => {
     expect(getLocationSubregion("AUSTRALIA_AND_NEW_ZEALAND", "en")).toBe("Australia and New Zealand");
   });
-  it(`should return "South-Eastern Asia" for location subregion "SOUTH_EASTERN_ASIA" on English`, () => {
-    expect(getLocationSubregion("SOUTH_EASTERN_ASIA", "en")).toBe("South-Eastern Asia");
+  it(`should return "South-Eastern Asia" for location subregion "SOUTH-EASTERN_ASIA" on English`, () => {
+    expect(getLocationSubregion("SOUTH-EASTERN_ASIA", "en")).toBe("South-Eastern Asia");
   });
 
   it(`should correctly work without defining locale`, () => {
