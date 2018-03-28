@@ -1,6 +1,6 @@
 {
   "name": "thebasetrip-definitions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get human-readable attributes of thebasetrip.com API on English and Russian",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
